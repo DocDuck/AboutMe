@@ -28,7 +28,7 @@
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/done_edit_nickname_button"
+        android:id="@+id/done_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -37,6 +37,16 @@
         android:background="@color/colorAccent"
         style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
         android:text="@string/done" />
+
+    <TextView
+        style="@style/NameStyle"
+        android:id="@+id/nickname_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/margin_layout"
+        android:paddingTop="@dimen/padding_small"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/star_img"
